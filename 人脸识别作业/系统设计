@@ -1,0 +1,19 @@
+Man: Can you see me?
+Robot: if there is a person, say, "Yes, I can see you"
+	"No, I can't" otherwise
+
+Man: Do you know who it is?
+Robot: Yes, I know you are ***. (e.g. zhangshuo, my name)
+
+Man: I want to take a picture
+Robot: "To the left" if x<350
+	"To the right"if x > 450
+  	x==400 is the right middle.
+	
+	if condition satisfied, say, "Ready. don't move."
+
+Man: Yes, ready
+Robot: pub "take phto", and the picture taken and saved in /home/...
+
+Man: Thank you
+Ro: It is my pleasure. That is what I do.
